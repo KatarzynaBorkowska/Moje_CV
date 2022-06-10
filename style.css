@@ -1,0 +1,116 @@
+body {
+  font-family: Arial;
+  background-color: rgb(224, 226, 230);
+  padding: 40px 0;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  margin-top: 5px;
+}
+span {
+  color: grey;
+}
+section,
+header {
+  padding: 10px 60px 10px 60px;
+}
+.container {
+  width: 960px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgb(224, 226, 230);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+header ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+.address-icon {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  margin-right: 8px;
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.dane {
+  list-style: none;
+}
+
+.circle {
+  border-radius: 50%;
+}
+.photo {
+  width: 200px;
+  height: 250px;
+}
+.zaint {
+  width: 32px;
+  height: 32px;
+}
+
+.hobbies {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobbies li {
+  width: 33.3%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.hobbies div {
+  margin-left: 20px;
+}
+
+.hobbies p {
+  color: grey;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.cv-download-link {
+  border: 2px solid cornflowerblue;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 26px;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 0 20px rgb(224, 226, 230);
+}
+
+.cv-download-link:hover {
+  color: white;
+  background-color: cornflowerblue;
+}
+.cv-download-link:focus {
+  outline: none;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.cv-download-link:active {
+  text-decoration: underline;
+}
